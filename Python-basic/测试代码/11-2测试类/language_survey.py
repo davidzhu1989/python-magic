@@ -13,7 +13,7 @@ my_survey = AnoymousSurvey(question)
 my_survey.show_question()
 print('Enter 1 at any time to quit.\n')
 while True:
-    response = input('Language:')
+    response = input('Language: ')
     if response == 'q':
         break
     else:
