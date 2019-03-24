@@ -13,9 +13,5 @@ class Employee():
         self.last_name = last_name
         self.salary = salary
 
-    def give_raise(self, increase=0):
-        if increase > 0:
-            self.salary += increase+5000
-        else:
-            self.salary += 5000
-        return self.salary
+    def give_raise(self, increase=5000):
+        self.salary += increase
