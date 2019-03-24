@@ -3,6 +3,9 @@
 __author__ = 'Boaz'
 
 
-def location(city,country):
-    formatted = city+','+country
+def location(city,country,population=''):
+    if population:
+        formatted = city+','+country+" - "+str(population)
+    else:
+        formatted = city+','+country
     return formatted.title()

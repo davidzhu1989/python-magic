@@ -10,3 +10,7 @@ class LoactionTest(unittest.TestCase):
     def test_city_country(self):
         mylocation = location('Santiago', 'Chile')
         self.assertEqual(mylocation, 'Santiago,Chile')
+
+    def test_city_country_population(self):
+        info = location('Santiago', 'Chile', 5000000)
+        self.assertEqual(info, 'Santiago,Chile - 5000000')
