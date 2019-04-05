@@ -2,6 +2,10 @@
   <dictionary name="Boaz">
     <words>
       <w>boaz</w>
+      <w>getinstance</w>
+      <w>makeitem</w>
+      <w>makerandom</w>
+      <w>randsleep</w>
       <w>singletonbase</w>
     </words>
   </dictionary>
