@@ -1,5 +1,7 @@
 #!/usr/bin/env python  
 # coding=utf-8
+from trio_tracker6 import Tracer
+
 __author__ = 'Boaz'
 # @Time : 2019/4/4 1:13 
 
@@ -31,4 +33,7 @@ async def parent():
         # we exit the nursery block here
     print("parent: all done! ")
 
-trio.run(parent)
+# trio.run(parent)
+if __name__ == '__main__':
+
+    trio.run(parent, instruments=[Tracer()])

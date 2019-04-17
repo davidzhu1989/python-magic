@@ -3,10 +3,12 @@
     <words>
       <w>boaz</w>
       <w>getinstance</w>
+      <w>helloworld</w>
       <w>makeitem</w>
       <w>makerandom</w>
       <w>randsleep</w>
       <w>singletonbase</w>
+      <w>twosum</w>
     </words>
   </dictionary>
 </component>
